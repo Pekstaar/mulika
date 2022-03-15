@@ -64,7 +64,7 @@ export const Riders = () => {
   );
 };
 
-const ListItem = ({ plate, number }) => (
+export const ListItem = ({ plate, number }) => (
   <Link to="/riders/id">
     <div className="flex items-center p-3 bg-gray-40 cursor-pointer gap-3">
       {/* icon */}
@@ -73,7 +73,7 @@ const ListItem = ({ plate, number }) => (
       </div>
 
       <div className="grow">
-        <span className="text-xl font-medium">{plate}</span>
+        <span className="text-lg font-medium">{plate}</span>
       </div>
 
       <div className="">

@@ -5,3 +5,12 @@ export const RecordButton = ({ hand }) => (
     <span className="font-medium text-xl">report</span>
   </div>
 );
+
+export const Submit = ({ text }) => (
+  <button
+    type="submit"
+    className="gradient p-2.5 w-3/4 mx-auto text-white font-bold text-xl rounded-3xl"
+  >
+    {text}
+  </button>
+);

@@ -1,5 +1,5 @@
 import { Home, Recordings, Report, Riders, ViewRider } from "../pages";
-import { Alerts } from "../pages/authority";
+import { Alerts, AuthRiders, Login, Register } from "../pages/authority";
 import Record from "../pages/record/Record";
 // import Test2 from "../pages/record/Record";
 
@@ -40,11 +40,11 @@ export const useRouter = () => [
   },
   {
     path: "/auth/login",
-    ement: <></>,
+    element: <Login />,
   },
   {
     path: "/auth/register",
-    element: <></>,
+    element: <Register />,
   },
   {
     path: "/auth/recordings",
@@ -53,7 +53,7 @@ export const useRouter = () => [
 
   {
     path: "/auth/riders",
-    element: <></>,
+    element: <AuthRiders />,
   },
 
   {
